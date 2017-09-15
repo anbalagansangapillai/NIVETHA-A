@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Cal {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("N1: ");
+        int n1 = input.nextInt();
+        System.out.print("N2: ");
+        int n2 = input.nextInt();
+        if (n1 > 0 && n2 > 0) {
+            int sum = n1 + n2;
+            System.out.println("Sum= " + sum);
+        }
+            else {
+            System.out.println("Invalid Numbers");
+            System.out.println("End of program");
+        }
+    }
+}
