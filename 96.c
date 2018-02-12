@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main()
 {
-int i,n,f;
+int i,a,m;
 printf("enter");
-scanf("%d",&n);
-for(i=1;i<n;i++)
+scanf("%d",&a);
+for(i=1;i<a;i++)
 {
-if(n%i==0)
+if(a%i==0)
 {
-f=i;
+m=i;
 }
 }
-if(f>1)
+if(m>1)
 {
-printf("composite");
+printf("yes");
 }
 else
 {
-printf("not composite");
+printf("no");
 }
 }
