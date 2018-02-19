@@ -1,13 +1,13 @@
 #include<stdio.h>
 void main()
 {
-    int n;
+    int s;
     printf("enter");
-    scanf("%d",&n);
-    while(n%10!=0)
+    scanf("%d",&s);
+    while(s%10!=0)
     {
-        n++;
+        s++;
         
     }
-    printf("multiple of number %d",n);
+    printf("multiple of number %d",s);
 }
