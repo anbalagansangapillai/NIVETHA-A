@@ -1,13 +1,17 @@
 #include<stdio.h>
+#include<string.h>
 void main()
 {
-char a[4]={'\0','a','1','n'};
-int i;
-for(i=0;i<=4;i++)
-{
-if((i<=0)&&(i>=9))
-{
-printf("%d",a[i]);
-}
-}
+	char a[20];
+	int i;
+	printf("enter");
+	scanf("%s",&a);
+	
+	for(i=0;i<=3;i++)
+	{
+		if((a[i]>='0')&&(a[i]<='9'))
+		{
+			printf("%c",a[i]);
+		}
+	}
 }
