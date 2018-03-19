@@ -9,7 +9,7 @@ void main()
 	{
 		scanf("%d",&s[i]);
 	}
-	for(i=0;i<n;i++)
+	for(i=0;i<a;i++)
 	{
 		if(s[i]==b)
 		{
